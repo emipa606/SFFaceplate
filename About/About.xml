@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>SF Faceplate (Continued)</name>
   <packageId>Mlie.SFFaceplate</packageId>
@@ -14,26 +14,30 @@
     <li>
       <packageId>jecrell.jecstools</packageId>
       <displayName>JecsTools</displayName>
-      <steamWorkshopUrl>steam://url/CommunityFilePage/2195729899</steamWorkshopUrl>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/932008009</steamWorkshopUrl>
     </li>
   </modDependencies>
   <loadAfter>
     <li>jecrell.jecstools</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Shotgunfrenzys mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1502895441
 
-[img]https://i.imgur.com/7Gzt3Rg.png[/img]
+[img]https://i.imgur.com/pufA0kM.png[/img]
 
 [table]
     [tr]
         [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
         [td][url=https://github.com/emipa606/SFFaceplate][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
     [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
 [/table]
 	
-[img]https://i.imgur.com/NOW7jU1.png[/img]
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 Adds a simple Faceplate to the game. Mainly because it looks badass, but also to keep your pawns eyes...... hopefully?......
 		
 		
@@ -46,7 +50,7 @@ Adds a simple Faceplate to the game. Mainly because it looks badass, but also to
 Art by myself: shotgunfrenzy
 
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
