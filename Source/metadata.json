@@ -2,5 +2,17 @@
   "Continued": true,
   "CanAdd": "0",
   "CanRemove": "2",
-  "PreviewVersion": "1.5"
+  "PreviewVersion": "1.6",
+  "Patches": false,
+  "Defs": true,
+  "Assemblies": false,
+  "LinesOfCode": 0,
+  "LinesOfXML": 9456,
+  "CodeBaseSize": 63,
+  "LastXmlCleaning": "2025-07-24T21:51:20.619971+02:00",
+  "SocialImageSet": true,
+  "SearchTags": [
+    " mask",
+    " accessory"
+  ]
 }
