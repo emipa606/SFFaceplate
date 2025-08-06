@@ -1,13 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+  <BodyPartGroupDef>
+    <defName>NoseGroup</defName>
+    <label>nose</label>
+    <labelShort>nose</labelShort>
+  </BodyPartGroupDef>
   <ThingDef Name="FacialwearMakeableBase" ParentName="ApparelMakeableBase" Abstract="True">
     <thingCategories>
       <li>Facialwear</li>
     </thingCategories>
     <apparel>
       <layers>
-        <li>Overhead</li>
+        <li>EyeCover</li>
       </layers>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+      <drawData>
+        <defaultData>
+          <layer>61</layer>
+        </defaultData>
+      </drawData>
+      <bodyPartGroups>
+        <li>Eyes</li>
+        <li>Mouth</li>
+        <li>Teeth</li>
+        <li>NoseGroup</li>
+      </bodyPartGroups>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
     </apparel>
   </ThingDef>
   <ThingDef Name="FacialarmorMakeableBase" ParentName="ArmorMachineableBase" Abstract="True">
@@ -16,8 +36,23 @@
     </thingCategories>
     <apparel>
       <layers>
-        <li>Overhead</li>
+        <li>EyeCover</li>
       </layers>
+      <renderSkipFlags>
+        <li>None</li>
+      </renderSkipFlags>
+      <drawData>
+        <defaultData>
+          <layer>61</layer>
+        </defaultData>
+      </drawData>
+      <bodyPartGroups>
+        <li>Eyes</li>
+        <li>Mouth</li>
+        <li>Teeth</li>
+        <li>NoseGroup</li>
+      </bodyPartGroups>
+      <countsAsClothingForNudity>false</countsAsClothingForNudity>
     </apparel>
   </ThingDef>
   <ThingDef ParentName="FacialarmorMakeableBase">
@@ -72,16 +107,6 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-    <modExtensions>
-      <li Class="JecsTools.ApparelExtension">
-        <coverage>
-          <li>Eyes</li>
-          <li>Teeth</li>
-          <li>Mouth</li>
-          <li>Nose</li>
-        </coverage>
-      </li>
-    </modExtensions>
   </ThingDef>
   <ThingDef ParentName="FacialwearMakeableBase">
     <defName>Apparel_Leather_Faceplate</defName>
@@ -126,16 +151,6 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-    <modExtensions>
-      <li Class="JecsTools.ApparelExtension">
-        <coverage>
-          <li>Eyes</li>
-          <li>Teeth</li>
-          <li>Mouth</li>
-          <li>Nose</li>
-        </coverage>
-      </li>
-    </modExtensions>
   </ThingDef>
   <ThingDef ParentName="FacialwearMakeableBase">
     <defName>Apparel_Hockey_Mask</defName>
@@ -185,16 +200,6 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-    <modExtensions>
-      <li Class="JecsTools.ApparelExtension">
-        <coverage>
-          <li>Eyes</li>
-          <li>Teeth</li>
-          <li>Mouth</li>
-          <li>Nose</li>
-        </coverage>
-      </li>
-    </modExtensions>
   </ThingDef>
   <ThingDef ParentName="FacialwearMakeableBase">
     <defName>Apparel_Psycho_Mask</defName>
@@ -245,15 +250,5 @@
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
-    <modExtensions>
-      <li Class="JecsTools.ApparelExtension">
-        <coverage>
-          <li>Eyes</li>
-          <li>Teeth</li>
-          <li>Mouth</li>
-          <li>Nose</li>
-        </coverage>
-      </li>
-    </modExtensions>
   </ThingDef>
 </Defs>
